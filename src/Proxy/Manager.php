@@ -27,7 +27,7 @@ class Manager
     /**
      * make Writer instance
      *
-     * @return \YukataRm\Csv\Interface\OperatorInterface
+     * @return \YukataRm\Csv\Interface\WriterInterface
      */
     public function writer(): WriterInterface
     {
