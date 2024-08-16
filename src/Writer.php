@@ -140,12 +140,12 @@ class Writer extends BaseWriter implements WriterInterface
     /**
      * set headers
      * 
-     * @param array<string> $content
+     * @param array<string> $headers
      * @return static
      */
-    public function setHeaders(array $content): static
+    public function setHeaders(array $headers): static
     {
-        $this->headers = $content;
+        $this->headers = $headers;
 
         return $this;
     }
